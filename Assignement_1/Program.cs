@@ -13,11 +13,11 @@ class Program
     /// <summary>
     /// Counts from zero to the provided number.
     /// </summary>
-    /// <param name="num">The number to count until</param>
-    static void CountTo(int num)
+    /// <param name="n">The number to count until</param>
+    static void CountTo(int n)
     {
-        Console.WriteLine("Counting to "+ num + "...");
-        for (int i = 1; i <= num; i++)
+        Console.WriteLine("Counting to "+ n + "...");
+        for (int i = 1; i <= n; i++)
         {
             Console.WriteLine(i);
         }
