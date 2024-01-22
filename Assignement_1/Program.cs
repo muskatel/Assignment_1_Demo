@@ -10,6 +10,10 @@ class Program
         CountTo(4);
     }
 
+    /// <summary>
+    /// Counts from zero to the provided number.
+    /// </summary>
+    /// <param name="num">The number to count until</param>
     static void CountTo(int num)
     {
         Console.WriteLine("Counting to "+ num + "...");
